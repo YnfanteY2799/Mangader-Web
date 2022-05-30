@@ -1,4 +1,5 @@
-/* Custom fetch i've make for not needing axios in a future */
-export default function Fetch(): Promise<any> {
+/* Fecth function for quitting the necesity of axios in a future */
+
+export default function Fecth(): Promise<any> {
   return new Promise(() => {});
 }
