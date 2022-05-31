@@ -2,6 +2,6 @@ export type NavbarProps = {
   routes?: Array<string>;
 };
 
-export default function Navbar({}: NavbarProps): JSX.Element {
+export default function Navbar({ routes = [] }: NavbarProps): JSX.Element {
   return <>Testing element</>;
 }
